@@ -12,19 +12,43 @@
 /* -----------------------------------------
    Shared Styles
 ----------------------------------------- */
-
-
-
+body {
+  min-height: 500px;
+}
+#main {
+  overflow: hidden;
+}
+#topbar {
+  text-align: center;
+}
 
 
 /* -----------------------------------------
-   Page Name 1
+   HOME
 ----------------------------------------- */
+#languages {
+  border-bottom: 1px dashed #E5E5E5
+}
+#languages, #nosql {
+  padding: 10px 0;
+}
+#languages img, #nosql img {
+  vertical-align: middle;
+  height: 40px;
+}
 
+#applications {
+}
 
+footer.row {
+  margin-top: 80px;
+  border-top: 1px solid #E6E6E6;
+}
 
-
-
+#follow img {
+  vertical-align: middle;
+  height: 36px;
+}
 
 /* -----------------------------------------
    Page Name 2
